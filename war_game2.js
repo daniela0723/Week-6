@@ -85,8 +85,8 @@ class WARGame {
     }
 
     showWinner() {
-        console.log(this.players[0].playerName + ": " + this.players[0].playerScore); // got 0
-        console.log(this.players[1].playerName + ": " + this.players[1].playerScore); // got 0
+        console.log(this.players[0].playerName + ": " + this.players[0].playerScore); 
+        console.log(this.players[1].playerName + ": " + this.players[1].playerScore); 
 
         if (this.players[0].playerScore > this.players[1].playerScore) {
             console.log(this.players[0].playerName.toUpperCase() + " IS THE WINNER! :D");
