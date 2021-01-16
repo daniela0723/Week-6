@@ -46,7 +46,7 @@ class Player {
     constructor(name) {
         this.playerName = name;
         this.playerCards = [];
-        this.playerScore = 0; //I was unable to access it to change it (++)
+        this.playerScore = 0; 
     }
 }
 
