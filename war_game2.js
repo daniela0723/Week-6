@@ -38,7 +38,6 @@ class Deck {
             this.cards[stack1] = this.cards[stack2];
             this.cards[stack2] = temp;
         }
-        return this.players
     }
 }
 
@@ -101,7 +100,7 @@ class WARGame {
 console.log("--------------WAR GAME SIMULATION---------------")
 let game = new WARGame();
 
-for (let i = 0; i <= 26; i++) {
+for (let i = 0; i < 26; i++) {
     game.start('Mario', 'Luigi');
     game.flipCards();
 }
